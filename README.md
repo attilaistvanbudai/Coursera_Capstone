@@ -10,3 +10,4 @@ To find the best place it`s important to find the already existing places, which
 
 I will use the disticts of Budapest and parse all the coordinates from pages.
 This page can be used to parse the GPS coordinates for all districts in Budapest: http://nepesseg.com/budapest/budapest-01-kerulet
+Based on the GPS coordinates the Foursquare API can be used to get all the necessary information.
