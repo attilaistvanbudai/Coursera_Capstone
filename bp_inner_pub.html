@@ -1,0 +1,2818 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_84bb361e6435480d8dda1ac7b61f78c1 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_84bb361e6435480d8dda1ac7b61f78c1" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_84bb361e6435480d8dda1ac7b61f78c1 = L.map(
+                                  'map_84bb361e6435480d8dda1ac7b61f78c1',
+                                  {center: [47.5,19.05],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_8bcfc3c340484d189d8105179cbbe6ef = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+        
+    
+
+            var circle_56f8c12bf5be4653b30c0079cddbbc18 = L.circle(
+                [47.503697754917006,19.06154599823155],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_5bdf6e5a4b204401acfef2babf3451ab = L.popup({maxWidth: '300'});
+
+            
+                var html_d8830749b83e455dbfd6efd894a69253 = $('<div id="html_d8830749b83e455dbfd6efd894a69253" style="width: 100.0%; height: 100.0%;">360 Bar</div>')[0];
+                popup_5bdf6e5a4b204401acfef2babf3451ab.setContent(html_d8830749b83e455dbfd6efd894a69253);
+            
+
+            circle_56f8c12bf5be4653b30c0079cddbbc18.bindPopup(popup_5bdf6e5a4b204401acfef2babf3451ab);
+
+            
+        
+    
+
+            var circle_b586503e8d28478e91cf11f02d99e4b5 = L.circle(
+                [47.48483361786026,19.0765654315334],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_27406208a013491d9ef469e6e75f607f = L.popup({maxWidth: '300'});
+
+            
+                var html_9b061a9259d349e1b11b039868750d33 = $('<div id="html_9b061a9259d349e1b11b039868750d33" style="width: 100.0%; height: 100.0%;">A Grund</div>')[0];
+                popup_27406208a013491d9ef469e6e75f607f.setContent(html_9b061a9259d349e1b11b039868750d33);
+            
+
+            circle_b586503e8d28478e91cf11f02d99e4b5.bindPopup(popup_27406208a013491d9ef469e6e75f607f);
+
+            
+        
+    
+
+            var circle_75a0ecc03df84c158583dadaa3d8381a = L.circle(
+                [47.48422350498602,19.075747053584575],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_d5ac3849ccce4e7a849b52c231fb7b61 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5f1956821e64424946ee81bec968aa0 = $('<div id="html_b5f1956821e64424946ee81bec968aa0" style="width: 100.0%; height: 100.0%;">Andersen 2</div>')[0];
+                popup_d5ac3849ccce4e7a849b52c231fb7b61.setContent(html_b5f1956821e64424946ee81bec968aa0);
+            
+
+            circle_75a0ecc03df84c158583dadaa3d8381a.bindPopup(popup_d5ac3849ccce4e7a849b52c231fb7b61);
+
+            
+        
+    
+
+            var circle_8bb8149c5e9941769b2386a82b8bd2a0 = L.circle(
+                [47.52839171406426,19.073459064246148],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_b13a51419c39433d97a570bf35e09bea = L.popup({maxWidth: '300'});
+
+            
+                var html_5b9749d1c8f14f89992eece77063948e = $('<div id="html_5b9749d1c8f14f89992eece77063948e" style="width: 100.0%; height: 100.0%;">B.A.K. Hütte</div>')[0];
+                popup_b13a51419c39433d97a570bf35e09bea.setContent(html_5b9749d1c8f14f89992eece77063948e);
+            
+
+            circle_8bb8149c5e9941769b2386a82b8bd2a0.bindPopup(popup_b13a51419c39433d97a570bf35e09bea);
+
+            
+        
+    
+
+            var circle_0a61542dd782471db2b82a37d9eb4737 = L.circle(
+                [47.5004242051535,19.068579061206155],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_ebae5bdc3ac2447a90e353944259fcc0 = L.popup({maxWidth: '300'});
+
+            
+                var html_09c50e5d6e1b4bed8a9e2f8c162ad696 = $('<div id="html_09c50e5d6e1b4bed8a9e2f8c162ad696" style="width: 100.0%; height: 100.0%;">Beer Point</div>')[0];
+                popup_ebae5bdc3ac2447a90e353944259fcc0.setContent(html_09c50e5d6e1b4bed8a9e2f8c162ad696);
+            
+
+            circle_0a61542dd782471db2b82a37d9eb4737.bindPopup(popup_ebae5bdc3ac2447a90e353944259fcc0);
+
+            
+        
+    
+
+            var circle_e1cc0934c43c4d7f9c83ce42026a989d = L.circle(
+                [47.50169488330903,19.03977086335183],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_007ecef363f047f3b07a2e029537eed9 = L.popup({maxWidth: '300'});
+
+            
+                var html_70bba058e4184c4eb599e2e68726f008 = $('<div id="html_70bba058e4184c4eb599e2e68726f008" style="width: 100.0%; height: 100.0%;">Belga Söröző</div>')[0];
+                popup_007ecef363f047f3b07a2e029537eed9.setContent(html_70bba058e4184c4eb599e2e68726f008);
+            
+
+            circle_e1cc0934c43c4d7f9c83ce42026a989d.bindPopup(popup_007ecef363f047f3b07a2e029537eed9);
+
+            
+        
+    
+
+            var circle_939cff0adc68408b8bef25b57f6c41ed = L.circle(
+                [47.50080995767804,19.056635360343453],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_6b11a3481c7549ebb4721ce18b096d6c = L.popup({maxWidth: '300'});
+
+            
+                var html_96562c93d44b4459b116b4e1f834a8ce = $('<div id="html_96562c93d44b4459b116b4e1f834a8ce" style="width: 100.0%; height: 100.0%;">Bistro Fine</div>')[0];
+                popup_6b11a3481c7549ebb4721ce18b096d6c.setContent(html_96562c93d44b4459b116b4e1f834a8ce);
+            
+
+            circle_939cff0adc68408b8bef25b57f6c41ed.bindPopup(popup_6b11a3481c7549ebb4721ce18b096d6c);
+
+            
+        
+    
+
+            var circle_a0a807e472854e709800f18c4c1cc353 = L.circle(
+                [47.49259678550234,19.073257906488436],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_05fe28f9103645e7832674b38e84945c = L.popup({maxWidth: '300'});
+
+            
+                var html_35c3dc7e90574c88b2f36bdd1b0ca830 = $('<div id="html_35c3dc7e90574c88b2f36bdd1b0ca830" style="width: 100.0%; height: 100.0%;">Bohemia Söröző</div>')[0];
+                popup_05fe28f9103645e7832674b38e84945c.setContent(html_35c3dc7e90574c88b2f36bdd1b0ca830);
+            
+
+            circle_a0a807e472854e709800f18c4c1cc353.bindPopup(popup_05fe28f9103645e7832674b38e84945c);
+
+            
+        
+    
+
+            var circle_4a7537993fc34ea496bbf7e33b84640b = L.circle(
+                [47.46538783551039,19.023178057450455],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_b8bd16f46bb144489f077d199c4cecca = L.popup({maxWidth: '300'});
+
+            
+                var html_24427410857b48088cf28273f74558ba = $('<div id="html_24427410857b48088cf28273f74558ba" style="width: 100.0%; height: 100.0%;">Bohém Söröző</div>')[0];
+                popup_b8bd16f46bb144489f077d199c4cecca.setContent(html_24427410857b48088cf28273f74558ba);
+            
+
+            circle_4a7537993fc34ea496bbf7e33b84640b.bindPopup(popup_b8bd16f46bb144489f077d199c4cecca);
+
+            
+        
+    
+
+            var circle_d74a1aa3ba644a049c3e1196cfe136de = L.circle(
+                [47.499439422937684,19.052329953576],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_3b9919ac95ef47d39eb9428926d06863 = L.popup({maxWidth: '300'});
+
+            
+                var html_efe052966ef947b983074b9ab980535f = $('<div id="html_efe052966ef947b983074b9ab980535f" style="width: 100.0%; height: 100.0%;">Borkonyha</div>')[0];
+                popup_3b9919ac95ef47d39eb9428926d06863.setContent(html_efe052966ef947b983074b9ab980535f);
+            
+
+            circle_d74a1aa3ba644a049c3e1196cfe136de.bindPopup(popup_3b9919ac95ef47d39eb9428926d06863);
+
+            
+        
+    
+
+            var circle_ec9ee9363455452387e814f50f7a5396 = L.circle(
+                [47.49958811566566,19.05601531647689],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_d8ec0fd441964b29930cf635c342b633 = L.popup({maxWidth: '300'});
+
+            
+                var html_38708dc147e1473a892fa8536da4a207 = $('<div id="html_38708dc147e1473a892fa8536da4a207" style="width: 100.0%; height: 100.0%;">Boutiq&#39;Bar</div>')[0];
+                popup_d8ec0fd441964b29930cf635c342b633.setContent(html_38708dc147e1473a892fa8536da4a207);
+            
+
+            circle_ec9ee9363455452387e814f50f7a5396.bindPopup(popup_d8ec0fd441964b29930cf635c342b633);
+
+            
+        
+    
+
+            var circle_a580897cd9c448e8be5196002a64ca17 = L.circle(
+                [47.48886706414741,19.073424589048823],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_739c0d2c00a840faa6ca26e2f2ea86d7 = L.popup({maxWidth: '300'});
+
+            
+                var html_13878cbcefd04c688eab6a4294900da1 = $('<div id="html_13878cbcefd04c688eab6a4294900da1" style="width: 100.0%; height: 100.0%;">Bujdosó Kert</div>')[0];
+                popup_739c0d2c00a840faa6ca26e2f2ea86d7.setContent(html_13878cbcefd04c688eab6a4294900da1);
+            
+
+            circle_a580897cd9c448e8be5196002a64ca17.bindPopup(popup_739c0d2c00a840faa6ca26e2f2ea86d7);
+
+            
+        
+    
+
+            var circle_3ab2c7e9c97e4f8983b58ddb7338cfab = L.circle(
+                [47.50122282023591,19.052114188671112],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_c5b1b596a756407ca03e4020414a9368 = L.popup({maxWidth: '300'});
+
+            
+                var html_dacf1f8cfd924a028b7a1c23b9500e60 = $('<div id="html_dacf1f8cfd924a028b7a1c23b9500e60" style="width: 100.0%; height: 100.0%;">Café Kör</div>')[0];
+                popup_c5b1b596a756407ca03e4020414a9368.setContent(html_dacf1f8cfd924a028b7a1c23b9500e60);
+            
+
+            circle_3ab2c7e9c97e4f8983b58ddb7338cfab.bindPopup(popup_c5b1b596a756407ca03e4020414a9368);
+
+            
+        
+    
+
+            var circle_16d103ee1646498ea999b6d078ff633e = L.circle(
+                [47.502169563510364,19.055897161621015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_74ff250f41024f7cb79d54613b769a5f = L.popup({maxWidth: '300'});
+
+            
+                var html_e8506ceb323a461cbde86c2cb225aee7 = $('<div id="html_e8506ceb323a461cbde86c2cb225aee7" style="width: 100.0%; height: 100.0%;">Cech In Sörtár</div>')[0];
+                popup_74ff250f41024f7cb79d54613b769a5f.setContent(html_e8506ceb323a461cbde86c2cb225aee7);
+            
+
+            circle_16d103ee1646498ea999b6d078ff633e.bindPopup(popup_74ff250f41024f7cb79d54613b769a5f);
+
+            
+        
+    
+
+            var circle_e2c88bbd7a074fc2a7188cc4930ad22e = L.circle(
+                [47.50179179083147,19.065552498729502],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_ddc20317ad294633aa4fa004479fe2b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_62a115289ec0467d98552dc58966faac = $('<div id="html_62a115289ec0467d98552dc58966faac" style="width: 100.0%; height: 100.0%;">Csak a jó sör!</div>')[0];
+                popup_ddc20317ad294633aa4fa004479fe2b9.setContent(html_62a115289ec0467d98552dc58966faac);
+            
+
+            circle_e2c88bbd7a074fc2a7188cc4930ad22e.bindPopup(popup_ddc20317ad294633aa4fa004479fe2b9);
+
+            
+        
+    
+
+            var circle_9eb359b7280c497384d7b393a3227eea = L.circle(
+                [47.50179179083147,19.065552498729502],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_1adc23b952cd47dab6183030f08061fd = L.popup({maxWidth: '300'});
+
+            
+                var html_65fa334816944a1198116dadeef121df = $('<div id="html_65fa334816944a1198116dadeef121df" style="width: 100.0%; height: 100.0%;">Csak a jó sör!</div>')[0];
+                popup_1adc23b952cd47dab6183030f08061fd.setContent(html_65fa334816944a1198116dadeef121df);
+            
+
+            circle_9eb359b7280c497384d7b393a3227eea.bindPopup(popup_1adc23b952cd47dab6183030f08061fd);
+
+            
+        
+    
+
+            var circle_1f12a12f083d4bdd950afdb4f3525281 = L.circle(
+                [47.48295365871498,19.14539191055806],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_0e0d5ea877e1411bad5a5ba9301f0324 = L.popup({maxWidth: '300'});
+
+            
+                var html_708a57fe2b00442e89dbb4bdb97cfd82 = $('<div id="html_708a57fe2b00442e89dbb4bdb97cfd82" style="width: 100.0%; height: 100.0%;">Csősztorony Bisztró</div>')[0];
+                popup_0e0d5ea877e1411bad5a5ba9301f0324.setContent(html_708a57fe2b00442e89dbb4bdb97cfd82);
+            
+
+            circle_1f12a12f083d4bdd950afdb4f3525281.bindPopup(popup_0e0d5ea877e1411bad5a5ba9301f0324);
+
+            
+        
+    
+
+            var circle_35c42ab0ad4d49c496d1d81acb39a445 = L.circle(
+                [47.486855585781925,19.08036372548686],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_9e022a3e14964194b1dda7fd7845df42 = L.popup({maxWidth: '300'});
+
+            
+                var html_20a639f0cb1c44b7a01dce46cbd06d89 = $('<div id="html_20a639f0cb1c44b7a01dce46cbd06d89" style="width: 100.0%; height: 100.0%;">Dagoba-bisztró</div>')[0];
+                popup_9e022a3e14964194b1dda7fd7845df42.setContent(html_20a639f0cb1c44b7a01dce46cbd06d89);
+            
+
+            circle_35c42ab0ad4d49c496d1d81acb39a445.bindPopup(popup_9e022a3e14964194b1dda7fd7845df42);
+
+            
+        
+    
+
+            var circle_87b1aa7d729549f7b85d8addecd59119 = L.circle(
+                [47.502023329680945,19.039671071489924],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_90948a012e4b4f4f99d81a944a4adc17 = L.popup({maxWidth: '300'});
+
+            
+                var html_fd911aafeeef482c96f7ea03725ccd0b = $('<div id="html_fd911aafeeef482c96f7ea03725ccd0b" style="width: 100.0%; height: 100.0%;">Dunaparti Matróz Kocsma</div>')[0];
+                popup_90948a012e4b4f4f99d81a944a4adc17.setContent(html_fd911aafeeef482c96f7ea03725ccd0b);
+            
+
+            circle_87b1aa7d729549f7b85d8addecd59119.bindPopup(popup_90948a012e4b4f4f99d81a944a4adc17);
+
+            
+        
+    
+
+            var circle_2bb1d74b85c14412a03ff4e1bf1ed345 = L.circle(
+                [47.49726881765624,19.03170794248581],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_8044191c5396486281e878ccb79bdd49 = L.popup({maxWidth: '300'});
+
+            
+                var html_aec64c9c09c24a049f50353605b25420 = $('<div id="html_aec64c9c09c24a049f50353605b25420" style="width: 100.0%; height: 100.0%;">Déryné Bisztró</div>')[0];
+                popup_8044191c5396486281e878ccb79bdd49.setContent(html_aec64c9c09c24a049f50353605b25420);
+            
+
+            circle_2bb1d74b85c14412a03ff4e1bf1ed345.bindPopup(popup_8044191c5396486281e878ccb79bdd49);
+
+            
+        
+    
+
+            var circle_14dd9965431a4a78aa25157f411d157c = L.circle(
+                [47.47609721969501,19.159779207764544],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_f535db7298eb4983b9c56d16f22e6920 = L.popup({maxWidth: '300'});
+
+            
+                var html_1ba90dbe6b114beabc06a6f1dc959e96 = $('<div id="html_1ba90dbe6b114beabc06a6f1dc959e96" style="width: 100.0%; height: 100.0%;">Faház Drinkbár</div>')[0];
+                popup_f535db7298eb4983b9c56d16f22e6920.setContent(html_1ba90dbe6b114beabc06a6f1dc959e96);
+            
+
+            circle_14dd9965431a4a78aa25157f411d157c.bindPopup(popup_f535db7298eb4983b9c56d16f22e6920);
+
+            
+        
+    
+
+            var circle_0604ef058ef94fbc89311ad4213f4234 = L.circle(
+                [47.459717226322525,19.084975148388185],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_4bc30d1623a9479db98a8bab477ceb5d = L.popup({maxWidth: '300'});
+
+            
+                var html_a1c2d2e16bfe469492aa900ee93820d9 = $('<div id="html_a1c2d2e16bfe469492aa900ee93820d9" style="width: 100.0%; height: 100.0%;">Fehér Nyúl Sörfőzde</div>')[0];
+                popup_4bc30d1623a9479db98a8bab477ceb5d.setContent(html_a1c2d2e16bfe469492aa900ee93820d9);
+            
+
+            circle_0604ef058ef94fbc89311ad4213f4234.bindPopup(popup_4bc30d1623a9479db98a8bab477ceb5d);
+
+            
+        
+    
+
+            var circle_a1e04ef51728474d922d743ee267f3e9 = L.circle(
+                [47.509596,19.067641],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_d5b9a54c2b474425bd006e77afc533c9 = L.popup({maxWidth: '300'});
+
+            
+                var html_5471d674522545048f1b1f00087b87e6 = $('<div id="html_5471d674522545048f1b1f00087b87e6" style="width: 100.0%; height: 100.0%;">Ferdinánd Monarchia Cseh Sörház</div>')[0];
+                popup_d5b9a54c2b474425bd006e77afc533c9.setContent(html_5471d674522545048f1b1f00087b87e6);
+            
+
+            circle_a1e04ef51728474d922d743ee267f3e9.bindPopup(popup_d5b9a54c2b474425bd006e77afc533c9);
+
+            
+        
+    
+
+            var circle_a5094f2d67d942e3896308310e51c79e = L.circle(
+                [47.50143258438811,19.066281696931327],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_dc88083b087645e1a87bcfaff0e4f400 = L.popup({maxWidth: '300'});
+
+            
+                var html_d6a54d7a046e428787e158d8851ced70 = $('<div id="html_d6a54d7a046e428787e158d8851ced70" style="width: 100.0%; height: 100.0%;">Fricska</div>')[0];
+                popup_dc88083b087645e1a87bcfaff0e4f400.setContent(html_d6a54d7a046e428787e158d8851ced70);
+            
+
+            circle_a5094f2d67d942e3896308310e51c79e.bindPopup(popup_dc88083b087645e1a87bcfaff0e4f400);
+
+            
+        
+    
+
+            var circle_d455985397fc40f1aac5b27fbffd325d = L.circle(
+                [47.50143258438811,19.066281696931327],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_b19219d1a87f4f9faef6e9c326385070 = L.popup({maxWidth: '300'});
+
+            
+                var html_664ff1d4d4584bbe8a59087fa47a924f = $('<div id="html_664ff1d4d4584bbe8a59087fa47a924f" style="width: 100.0%; height: 100.0%;">Fricska</div>')[0];
+                popup_b19219d1a87f4f9faef6e9c326385070.setContent(html_664ff1d4d4584bbe8a59087fa47a924f);
+            
+
+            circle_d455985397fc40f1aac5b27fbffd325d.bindPopup(popup_b19219d1a87f4f9faef6e9c326385070);
+
+            
+        
+    
+
+            var circle_5d09bc972b7d45dabf4ec48c7cab80ad = L.circle(
+                [47.50351627288543,19.05588053927177],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_64b9cdfd04314dc99b0ac341c1740f09 = L.popup({maxWidth: '300'});
+
+            
+                var html_b4abfc1dfd0142d0b1161a414245d0a9 = $('<div id="html_b4abfc1dfd0142d0b1161a414245d0a9" style="width: 100.0%; height: 100.0%;">Game Up Pub</div>')[0];
+                popup_64b9cdfd04314dc99b0ac341c1740f09.setContent(html_b4abfc1dfd0142d0b1161a414245d0a9);
+            
+
+            circle_5d09bc972b7d45dabf4ec48c7cab80ad.bindPopup(popup_64b9cdfd04314dc99b0ac341c1740f09);
+
+            
+        
+    
+
+            var circle_e2006e61afe0412190ff7e3789b45b21 = L.circle(
+                [47.452337334815816,19.14089725486776],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_438b11695f954107a0b352f707e54f64 = L.popup({maxWidth: '300'});
+
+            
+                var html_2ca42846656841f6b51ae20a37387c21 = $('<div id="html_2ca42846656841f6b51ae20a37387c21" style="width: 100.0%; height: 100.0%;">Guriga söröző</div>')[0];
+                popup_438b11695f954107a0b352f707e54f64.setContent(html_2ca42846656841f6b51ae20a37387c21);
+            
+
+            circle_e2006e61afe0412190ff7e3789b45b21.bindPopup(popup_438b11695f954107a0b352f707e54f64);
+
+            
+        
+    
+
+            var circle_c49f99260c4d4be4b3ae3d99b8186b93 = L.circle(
+                [47.486499477279565,19.078836653281783],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_f57189275f0e4ebba5ed56a22b578956 = L.popup({maxWidth: '300'});
+
+            
+                var html_fd13c12d2e0547659d4246feb884399e = $('<div id="html_fd13c12d2e0547659d4246feb884399e" style="width: 100.0%; height: 100.0%;">Gólya Közösségi Ház és Szövetkezeti Presszó</div>')[0];
+                popup_f57189275f0e4ebba5ed56a22b578956.setContent(html_fd13c12d2e0547659d4246feb884399e);
+            
+
+            circle_c49f99260c4d4be4b3ae3d99b8186b93.bindPopup(popup_f57189275f0e4ebba5ed56a22b578956);
+
+            
+        
+    
+
+            var circle_4fe98aaa9bc2424f9fd0536b0e3f44a0 = L.circle(
+                [47.53291825072428,19.072275473068956],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_6d5fae7bc1494c1fa99b5bb0e6ccee17 = L.popup({maxWidth: '300'});
+
+            
+                var html_c2144977c23947ee8608e3ba3e1a8342 = $('<div id="html_c2144977c23947ee8608e3ba3e1a8342" style="width: 100.0%; height: 100.0%;">HaBár</div>')[0];
+                popup_6d5fae7bc1494c1fa99b5bb0e6ccee17.setContent(html_c2144977c23947ee8608e3ba3e1a8342);
+            
+
+            circle_4fe98aaa9bc2424f9fd0536b0e3f44a0.bindPopup(popup_6d5fae7bc1494c1fa99b5bb0e6ccee17);
+
+            
+        
+    
+
+            var circle_b9ce80a9a8084e49a6bad5b1a4f2fdef = L.circle(
+                [47.50227638595388,19.05186227010949],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_fd4d7fc8e8654219b1f47bcdc46b7979 = L.popup({maxWidth: '300'});
+
+            
+                var html_4aa7865de37a4d79883ed4e9a09ccdf7 = $('<div id="html_4aa7865de37a4d79883ed4e9a09ccdf7" style="width: 100.0%; height: 100.0%;">Hedon</div>')[0];
+                popup_fd4d7fc8e8654219b1f47bcdc46b7979.setContent(html_4aa7865de37a4d79883ed4e9a09ccdf7);
+            
+
+            circle_b9ce80a9a8084e49a6bad5b1a4f2fdef.bindPopup(popup_fd4d7fc8e8654219b1f47bcdc46b7979);
+
+            
+        
+    
+
+            var circle_23b2b8da1b57470a8e913720d5564aad = L.circle(
+                [47.49480236527075,19.07196038142688],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_1b66e56aab6f46b591a94710e010d75d = L.popup({maxWidth: '300'});
+
+            
+                var html_68d35bc368ca4b928ab206016279fea5 = $('<div id="html_68d35bc368ca4b928ab206016279fea5" style="width: 100.0%; height: 100.0%;">Hintaló Iszoda</div>')[0];
+                popup_1b66e56aab6f46b591a94710e010d75d.setContent(html_68d35bc368ca4b928ab206016279fea5);
+            
+
+            circle_23b2b8da1b57470a8e913720d5564aad.bindPopup(popup_1b66e56aab6f46b591a94710e010d75d);
+
+            
+        
+    
+
+            var circle_9b0cd393435c40478e1632b83543027d = L.circle(
+                [47.498296431559844,19.058480236866796],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_cb25f751a6e94451bf23268c4c19f913 = L.popup({maxWidth: '300'});
+
+            
+                var html_40ad29680adb473cb1833bc5e954f9da = $('<div id="html_40ad29680adb473cb1833bc5e954f9da" style="width: 100.0%; height: 100.0%;">Hivatal Kávézó</div>')[0];
+                popup_cb25f751a6e94451bf23268c4c19f913.setContent(html_40ad29680adb473cb1833bc5e954f9da);
+            
+
+            circle_9b0cd393435c40478e1632b83543027d.bindPopup(popup_cb25f751a6e94451bf23268c4c19f913);
+
+            
+        
+    
+
+            var circle_fd61a5fbafbf48d082a320af07f5245f = L.circle(
+                [47.5000276949792,19.06581271312401],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_b19aaa15b62247dab9231fbf4886b29a = L.popup({maxWidth: '300'});
+
+            
+                var html_86e73dd1900c497dbedb15c14297c38d = $('<div id="html_86e73dd1900c497dbedb15c14297c38d" style="width: 100.0%; height: 100.0%;">Hopaholic - In Hop We Trust</div>')[0];
+                popup_b19aaa15b62247dab9231fbf4886b29a.setContent(html_86e73dd1900c497dbedb15c14297c38d);
+            
+
+            circle_fd61a5fbafbf48d082a320af07f5245f.bindPopup(popup_b19aaa15b62247dab9231fbf4886b29a);
+
+            
+        
+    
+
+            var circle_b206536eb6574d0d8defc6af2b9e05e0 = L.circle(
+                [47.48288935580295,19.154689001229542],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_6f1b8e2233b94a5e9b13b6d4c25c8bb8 = L.popup({maxWidth: '300'});
+
+            
+                var html_30bdfca8ad3b474aa1e0bf484f1f3c1f = $('<div id="html_30bdfca8ad3b474aa1e0bf484f1f3c1f" style="width: 100.0%; height: 100.0%;">Horizont</div>')[0];
+                popup_6f1b8e2233b94a5e9b13b6d4c25c8bb8.setContent(html_30bdfca8ad3b474aa1e0bf484f1f3c1f);
+            
+
+            circle_b206536eb6574d0d8defc6af2b9e05e0.bindPopup(popup_6f1b8e2233b94a5e9b13b6d4c25c8bb8);
+
+            
+        
+    
+
+            var circle_4f62074c6c86458eadc9c337a71e8a64 = L.circle(
+                [47.500600513754385,19.037172239234206],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_24d9c03d14fb4c0c9fc3fb2654987425 = L.popup({maxWidth: '300'});
+
+            
+                var html_a0b2363f77f64647a49d7344814eae84 = $('<div id="html_a0b2363f77f64647a49d7344814eae84" style="width: 100.0%; height: 100.0%;">Hunyadi Lakásbisztró</div>')[0];
+                popup_24d9c03d14fb4c0c9fc3fb2654987425.setContent(html_a0b2363f77f64647a49d7344814eae84);
+            
+
+            circle_4f62074c6c86458eadc9c337a71e8a64.bindPopup(popup_24d9c03d14fb4c0c9fc3fb2654987425);
+
+            
+        
+    
+
+            var circle_8dc084d341d14d42afd9d5d2e761481b = L.circle(
+                [47.41962087178199,19.0654091471532],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_6d273a409b7c4a0f89bb1ee72260c722 = L.popup({maxWidth: '300'});
+
+            
+                var html_e8bf2fe75a344939ab469fa165af87b5 = $('<div id="html_e8bf2fe75a344939ab469fa165af87b5" style="width: 100.0%; height: 100.0%;">Hév Söröző</div>')[0];
+                popup_6d273a409b7c4a0f89bb1ee72260c722.setContent(html_e8bf2fe75a344939ab469fa165af87b5);
+            
+
+            circle_8dc084d341d14d42afd9d5d2e761481b.bindPopup(popup_6d273a409b7c4a0f89bb1ee72260c722);
+
+            
+        
+    
+
+            var circle_90d5b4d5946449329999f8c07ef99e75 = L.circle(
+                [47.50789932574867,19.06356458092525],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_a94eea158cba42278f4451cc07db8685 = L.popup({maxWidth: '300'});
+
+            
+                var html_3d60192b98de4aae894a4e4bda5acb88 = $('<div id="html_3d60192b98de4aae894a4e4bda5acb88" style="width: 100.0%; height: 100.0%;">Jaromír &#39;68 Cseh Sörpince</div>')[0];
+                popup_a94eea158cba42278f4451cc07db8685.setContent(html_3d60192b98de4aae894a4e4bda5acb88);
+            
+
+            circle_90d5b4d5946449329999f8c07ef99e75.bindPopup(popup_a94eea158cba42278f4451cc07db8685);
+
+            
+        
+    
+
+            var circle_7c7fbc9fa1e2425584593cf38114eb40 = L.circle(
+                [47.50320424786081,19.076142193173265],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_8c86e61d9bbf4ee8af1966a6eab69b95 = L.popup({maxWidth: '300'});
+
+            
+                var html_8326aa5598a549dca46cbb103f3cef43 = $('<div id="html_8326aa5598a549dca46cbb103f3cef43" style="width: 100.0%; height: 100.0%;">Kalicka Bistro</div>')[0];
+                popup_8c86e61d9bbf4ee8af1966a6eab69b95.setContent(html_8326aa5598a549dca46cbb103f3cef43);
+            
+
+            circle_7c7fbc9fa1e2425584593cf38114eb40.bindPopup(popup_8c86e61d9bbf4ee8af1966a6eab69b95);
+
+            
+        
+    
+
+            var circle_2301192e7af94d579efb48536e52e09c = L.circle(
+                [47.501483752186815,19.06598389148712],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_cdd8d0d8a87145869a59fc56c6beedbe = L.popup({maxWidth: '300'});
+
+            
+                var html_79a2068983274fd093e76c15588e424b = $('<div id="html_79a2068983274fd093e76c15588e424b" style="width: 100.0%; height: 100.0%;">Kandalló Kézműves Pub</div>')[0];
+                popup_cdd8d0d8a87145869a59fc56c6beedbe.setContent(html_79a2068983274fd093e76c15588e424b);
+            
+
+            circle_2301192e7af94d579efb48536e52e09c.bindPopup(popup_cdd8d0d8a87145869a59fc56c6beedbe);
+
+            
+        
+    
+
+            var circle_e673d63a93d144f8a97142f9181c45bb = L.circle(
+                [47.501483752186815,19.06598389148712],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_74e756d76a404f3da6471df8d7fee41e = L.popup({maxWidth: '300'});
+
+            
+                var html_25c3a714af044453a3bf3741e8dc9b0d = $('<div id="html_25c3a714af044453a3bf3741e8dc9b0d" style="width: 100.0%; height: 100.0%;">Kandalló Kézműves Pub</div>')[0];
+                popup_74e756d76a404f3da6471df8d7fee41e.setContent(html_25c3a714af044453a3bf3741e8dc9b0d);
+            
+
+            circle_e673d63a93d144f8a97142f9181c45bb.bindPopup(popup_74e756d76a404f3da6471df8d7fee41e);
+
+            
+        
+    
+
+            var circle_d2a713f1c3b34369982b67bbde46366b = L.circle(
+                [47.501483752186815,19.06598389148712],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_34a79ef4f97845e18a0be9a087bb4eff = L.popup({maxWidth: '300'});
+
+            
+                var html_31f057cd63f84e86968e943fdd47a1dd = $('<div id="html_31f057cd63f84e86968e943fdd47a1dd" style="width: 100.0%; height: 100.0%;">Kandalló Kézműves Pub</div>')[0];
+                popup_34a79ef4f97845e18a0be9a087bb4eff.setContent(html_31f057cd63f84e86968e943fdd47a1dd);
+            
+
+            circle_d2a713f1c3b34369982b67bbde46366b.bindPopup(popup_34a79ef4f97845e18a0be9a087bb4eff);
+
+            
+        
+    
+
+            var circle_7de6bf0af42845c4a2ccdf5842a09a48 = L.circle(
+                [47.501483752186815,19.06598389148712],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_ca3d989590e4417f97577cff26bd80b0 = L.popup({maxWidth: '300'});
+
+            
+                var html_0cdd5b57b4754dec99ee37adee7ea385 = $('<div id="html_0cdd5b57b4754dec99ee37adee7ea385" style="width: 100.0%; height: 100.0%;">Kandalló Kézműves Pub</div>')[0];
+                popup_ca3d989590e4417f97577cff26bd80b0.setContent(html_0cdd5b57b4754dec99ee37adee7ea385);
+            
+
+            circle_7de6bf0af42845c4a2ccdf5842a09a48.bindPopup(popup_ca3d989590e4417f97577cff26bd80b0);
+
+            
+        
+    
+
+            var circle_6db3dcebee1642f4bc07265b7ee107eb = L.circle(
+                [47.504807,19.061704],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_7b53ba4e264a4c0595e0faf1da37b861 = L.popup({maxWidth: '300'});
+
+            
+                var html_72146f7baaf34a0a9f42ca25235d4c16 = $('<div id="html_72146f7baaf34a0a9f42ca25235d4c16" style="width: 100.0%; height: 100.0%;">Kiadó Kocsma</div>')[0];
+                popup_7b53ba4e264a4c0595e0faf1da37b861.setContent(html_72146f7baaf34a0a9f42ca25235d4c16);
+            
+
+            circle_6db3dcebee1642f4bc07265b7ee107eb.bindPopup(popup_7b53ba4e264a4c0595e0faf1da37b861);
+
+            
+        
+    
+
+            var circle_0eb99b7bb1f641b6ad7b2ef225619345 = L.circle(
+                [47.499683,19.062764],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_41748efe864c4300bf6fefb10af73619 = L.popup({maxWidth: '300'});
+
+            
+                var html_4c3000be9df24c55bc914c1e4cbcb720 = $('<div id="html_4c3000be9df24c55bc914c1e4cbcb720" style="width: 100.0%; height: 100.0%;">Kisüzem</div>')[0];
+                popup_41748efe864c4300bf6fefb10af73619.setContent(html_4c3000be9df24c55bc914c1e4cbcb720);
+            
+
+            circle_0eb99b7bb1f641b6ad7b2ef225619345.bindPopup(popup_41748efe864c4300bf6fefb10af73619);
+
+            
+        
+    
+
+            var circle_4ae26cb573bc4a80bc311b0c60f2a6b3 = L.circle(
+                [47.480280596471864,19.084008543209855],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_bf576f8f79384e24b3c725b6be9c6073 = L.popup({maxWidth: '300'});
+
+            
+                var html_5df8ecea80db4b359f1eafe0a412bf37 = $('<div id="html_5df8ecea80db4b359f1eafe0a412bf37" style="width: 100.0%; height: 100.0%;">Kultúrpub</div>')[0];
+                popup_bf576f8f79384e24b3c725b6be9c6073.setContent(html_5df8ecea80db4b359f1eafe0a412bf37);
+            
+
+            circle_4ae26cb573bc4a80bc311b0c60f2a6b3.bindPopup(popup_bf576f8f79384e24b3c725b6be9c6073);
+
+            
+        
+    
+
+            var circle_e47d06013e4342f298f997bbba1c22c1 = L.circle(
+                [47.492802,19.073931],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_bf212cd8c3da44ad83a1edb16f68cddf = L.popup({maxWidth: '300'});
+
+            
+                var html_404e3f15253044048f1bff191b0f63bc = $('<div id="html_404e3f15253044048f1bff191b0f63bc" style="width: 100.0%; height: 100.0%;">Kék Ló</div>')[0];
+                popup_bf212cd8c3da44ad83a1edb16f68cddf.setContent(html_404e3f15253044048f1bff191b0f63bc);
+            
+
+            circle_e47d06013e4342f298f997bbba1c22c1.bindPopup(popup_bf212cd8c3da44ad83a1edb16f68cddf);
+
+            
+        
+    
+
+            var circle_84b15e08d5344a5a9ac55bb405321269 = L.circle(
+                [47.46583477596329,19.02262372579867],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_afd5100411b849a8b1a330f344b44210 = L.popup({maxWidth: '300'});
+
+            
+                var html_f070e9231f614d47a5df9d65deb7122a = $('<div id="html_f070e9231f614d47a5df9d65deb7122a" style="width: 100.0%; height: 100.0%;">Lakat Presszó</div>')[0];
+                popup_afd5100411b849a8b1a330f344b44210.setContent(html_f070e9231f614d47a5df9d65deb7122a);
+            
+
+            circle_84b15e08d5344a5a9ac55bb405321269.bindPopup(popup_afd5100411b849a8b1a330f344b44210);
+
+            
+        
+    
+
+            var circle_51cc9d7d1fbb4c0db918743a39a8ef23 = L.circle(
+                [47.50495758619284,19.05328322161946],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_fcec9d83ff424cb393bbf066b655439e = L.popup({maxWidth: '300'});
+
+            
+                var html_d61c699a8c5f4f6faa0e5bcd4686c905 = $('<div id="html_d61c699a8c5f4f6faa0e5bcd4686c905" style="width: 100.0%; height: 100.0%;">Lakatos Műhely</div>')[0];
+                popup_fcec9d83ff424cb393bbf066b655439e.setContent(html_d61c699a8c5f4f6faa0e5bcd4686c905);
+            
+
+            circle_51cc9d7d1fbb4c0db918743a39a8ef23.bindPopup(popup_fcec9d83ff424cb393bbf066b655439e);
+
+            
+        
+    
+
+            var circle_68d473a9981d42b9b289480dcc980ca8 = L.circle(
+                [47.482948708213975,19.155201591605003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_094b8282913c462aa13e14cab144b588 = L.popup({maxWidth: '300'});
+
+            
+                var html_73bd6bbe559d46de9cd2cb684fbf81c0 = $('<div id="html_73bd6bbe559d46de9cd2cb684fbf81c0" style="width: 100.0%; height: 100.0%;">MONYO Brewing Co.</div>')[0];
+                popup_094b8282913c462aa13e14cab144b588.setContent(html_73bd6bbe559d46de9cd2cb684fbf81c0);
+            
+
+            circle_68d473a9981d42b9b289480dcc980ca8.bindPopup(popup_094b8282913c462aa13e14cab144b588);
+
+            
+        
+    
+
+            var circle_49f1a2d08ac744a392fe84f5e840b8f8 = L.circle(
+                [47.48262348919489,19.079232899902753],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_1caa51c9197d46dba765d2339bcdb037 = L.popup({maxWidth: '300'});
+
+            
+                var html_cbd99ba288c442e38d071a6583e14633 = $('<div id="html_cbd99ba288c442e38d071a6583e14633" style="width: 100.0%; height: 100.0%;">Medikus Kávézó</div>')[0];
+                popup_1caa51c9197d46dba765d2339bcdb037.setContent(html_cbd99ba288c442e38d071a6583e14633);
+            
+
+            circle_49f1a2d08ac744a392fe84f5e840b8f8.bindPopup(popup_1caa51c9197d46dba765d2339bcdb037);
+
+            
+        
+    
+
+            var circle_2868ee0b8e7941a1aeacef7ea018eb31 = L.circle(
+                [47.49255155299665,19.042136164673654],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_23016b71b1db4425a8d66c0f71a4c3ba = L.popup({maxWidth: '300'});
+
+            
+                var html_ce77bc14c0d447d78dd3f232c2e5d64d = $('<div id="html_ce77bc14c0d447d78dd3f232c2e5d64d" style="width: 100.0%; height: 100.0%;">Mr&amp;Mrs Columbo Pub</div>')[0];
+                popup_23016b71b1db4425a8d66c0f71a4c3ba.setContent(html_ce77bc14c0d447d78dd3f232c2e5d64d);
+            
+
+            circle_2868ee0b8e7941a1aeacef7ea018eb31.bindPopup(popup_23016b71b1db4425a8d66c0f71a4c3ba);
+
+            
+        
+    
+
+            var circle_066741047f6f4aab95a3f0b72cfb0ac6 = L.circle(
+                [47.50109554053697,19.047982618808152],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_34b0772d20074eedb4aa11819af77efd = L.popup({maxWidth: '300'});
+
+            
+                var html_92d16b396cbc47aabf2d467e0852d087 = $('<div id="html_92d16b396cbc47aabf2d467e0852d087" style="width: 100.0%; height: 100.0%;">MÁK</div>')[0];
+                popup_34b0772d20074eedb4aa11819af77efd.setContent(html_92d16b396cbc47aabf2d467e0852d087);
+            
+
+            circle_066741047f6f4aab95a3f0b72cfb0ac6.bindPopup(popup_34b0772d20074eedb4aa11819af77efd);
+
+            
+        
+    
+
+            var circle_4b8c893d66ee461a944d7299009d22e1 = L.circle(
+                [47.50109554053697,19.047982618808152],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_f31897e477a147c59e03e52a6ec96377 = L.popup({maxWidth: '300'});
+
+            
+                var html_e030422b11984047a9101109e04ca004 = $('<div id="html_e030422b11984047a9101109e04ca004" style="width: 100.0%; height: 100.0%;">MÁK</div>')[0];
+                popup_f31897e477a147c59e03e52a6ec96377.setContent(html_e030422b11984047a9101109e04ca004);
+            
+
+            circle_4b8c893d66ee461a944d7299009d22e1.bindPopup(popup_f31897e477a147c59e03e52a6ec96377);
+
+            
+        
+    
+
+            var circle_2ffdba64d92640ae8a67f5b92101c15a = L.circle(
+                [47.51709783158788,19.11571685082782],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_019c071995f14fedafdf3bbe7d88779f = L.popup({maxWidth: '300'});
+
+            
+                var html_840a10ce77094f32830f6746f477d5ab = $('<div id="html_840a10ce77094f32830f6746f477d5ab" style="width: 100.0%; height: 100.0%;">Márton Pince Söröző</div>')[0];
+                popup_019c071995f14fedafdf3bbe7d88779f.setContent(html_840a10ce77094f32830f6746f477d5ab);
+            
+
+            circle_2ffdba64d92640ae8a67f5b92101c15a.bindPopup(popup_019c071995f14fedafdf3bbe7d88779f);
+
+            
+        
+    
+
+            var circle_ea702c92d2ed44fda0035b9b261e6ac3 = L.circle(
+                [47.485932,19.07539],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_a6e21d48c6e346de9ebd19d0db9195b0 = L.popup({maxWidth: '300'});
+
+            
+                var html_94e191c50d8d4c9f8d48990654a33f76 = $('<div id="html_94e191c50d8d4c9f8d48990654a33f76" style="width: 100.0%; height: 100.0%;">Neked Csak Nyolc</div>')[0];
+                popup_a6e21d48c6e346de9ebd19d0db9195b0.setContent(html_94e191c50d8d4c9f8d48990654a33f76);
+            
+
+            circle_ea702c92d2ed44fda0035b9b261e6ac3.bindPopup(popup_a6e21d48c6e346de9ebd19d0db9195b0);
+
+            
+        
+    
+
+            var circle_3afbd1251b544abc89c483d5ab2e05aa = L.circle(
+                [47.492557703525854,19.072838246435317],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_62fdab9b331847e98d2d5f8117da82ee = L.popup({maxWidth: '300'});
+
+            
+                var html_e3e714743d194a27b09478ffb4d7cfd3 = $('<div id="html_e3e714743d194a27b09478ffb4d7cfd3" style="width: 100.0%; height: 100.0%;">OINOS WineBar&amp;Bistrot</div>')[0];
+                popup_62fdab9b331847e98d2d5f8117da82ee.setContent(html_e3e714743d194a27b09478ffb4d7cfd3);
+            
+
+            circle_3afbd1251b544abc89c483d5ab2e05aa.bindPopup(popup_62fdab9b331847e98d2d5f8117da82ee);
+
+            
+        
+    
+
+            var circle_6abfb764cb02454fbba2757bb1aafd46 = L.circle(
+                [47.506309221862104,19.067249836508907],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_466c71b18eb24069ba47b6b1b4c58427 = L.popup({maxWidth: '300'});
+
+            
+                var html_2a6e942fa9b34726a02383c32f50d121 = $('<div id="html_2a6e942fa9b34726a02383c32f50d121" style="width: 100.0%; height: 100.0%;">Ogre Bácsi</div>')[0];
+                popup_466c71b18eb24069ba47b6b1b4c58427.setContent(html_2a6e942fa9b34726a02383c32f50d121);
+            
+
+            circle_6abfb764cb02454fbba2757bb1aafd46.bindPopup(popup_466c71b18eb24069ba47b6b1b4c58427);
+
+            
+        
+    
+
+            var circle_23f79b760e8849bd95bbf79846530c5e = L.circle(
+                [47.506309221862104,19.067249836508907],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_03fc8624507f401ab89c5223e6bab88f = L.popup({maxWidth: '300'});
+
+            
+                var html_ce058b1062e9456a8c06796fec408041 = $('<div id="html_ce058b1062e9456a8c06796fec408041" style="width: 100.0%; height: 100.0%;">Ogre Bácsi</div>')[0];
+                popup_03fc8624507f401ab89c5223e6bab88f.setContent(html_ce058b1062e9456a8c06796fec408041);
+            
+
+            circle_23f79b760e8849bd95bbf79846530c5e.bindPopup(popup_03fc8624507f401ab89c5223e6bab88f);
+
+            
+        
+    
+
+            var circle_52af95807d9040ed8c0dc8e84443f737 = L.circle(
+                [47.48060133071465,19.256959606338572],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_9f47b082ad25415c8d476d469badff1a = L.popup({maxWidth: '300'});
+
+            
+                var html_ed98936dc6b144a9a723d4a2b712ecac = $('<div id="html_ed98936dc6b144a9a723d4a2b712ecac" style="width: 100.0%; height: 100.0%;">Patak</div>')[0];
+                popup_9f47b082ad25415c8d476d469badff1a.setContent(html_ed98936dc6b144a9a723d4a2b712ecac);
+            
+
+            circle_52af95807d9040ed8c0dc8e84443f737.bindPopup(popup_9f47b082ad25415c8d476d469badff1a);
+
+            
+        
+    
+
+            var circle_3f6e19038c57476797ff2f82f6f3c3cb = L.circle(
+                [47.49942722897585,19.03983180013579],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_fbb4b34757584a18892ef0b8f3411c0b = L.popup({maxWidth: '300'});
+
+            
+                var html_23814fad41474cea81e33cc9f26c5df4 = $('<div id="html_23814fad41474cea81e33cc9f26c5df4" style="width: 100.0%; height: 100.0%;">Pater Marcus Apátsági Söröző</div>')[0];
+                popup_fbb4b34757584a18892ef0b8f3411c0b.setContent(html_23814fad41474cea81e33cc9f26c5df4);
+            
+
+            circle_3f6e19038c57476797ff2f82f6f3c3cb.bindPopup(popup_fbb4b34757584a18892ef0b8f3411c0b);
+
+            
+        
+    
+
+            var circle_b12e6b0e17c9454ba6533499e147f9d4 = L.circle(
+                [47.53162714994597,19.065675669404357],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_5c640aa6f13d4c5ca700006d4a6c2915 = L.popup({maxWidth: '300'});
+
+            
+                var html_ddf5fb358b5248f7b42237706146a56b = $('<div id="html_ddf5fb358b5248f7b42237706146a56b" style="width: 100.0%; height: 100.0%;">Pocok Presszó</div>')[0];
+                popup_5c640aa6f13d4c5ca700006d4a6c2915.setContent(html_ddf5fb358b5248f7b42237706146a56b);
+            
+
+            circle_b12e6b0e17c9454ba6533499e147f9d4.bindPopup(popup_5c640aa6f13d4c5ca700006d4a6c2915);
+
+            
+        
+    
+
+            var circle_d170619603c5468dab8da4539209730e = L.circle(
+                [47.5697147384059,19.048674703348116],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_6a57ea026d7a49d68771da046993bf2c = L.popup({maxWidth: '300'});
+
+            
+                var html_15d2d8047caa4f8ea6bfbebe51f3730a = $('<div id="html_15d2d8047caa4f8ea6bfbebe51f3730a" style="width: 100.0%; height: 100.0%;">Pók Cafe</div>')[0];
+                popup_6a57ea026d7a49d68771da046993bf2c.setContent(html_15d2d8047caa4f8ea6bfbebe51f3730a);
+            
+
+            circle_d170619603c5468dab8da4539209730e.bindPopup(popup_6a57ea026d7a49d68771da046993bf2c);
+
+            
+        
+    
+
+            var circle_ecb0db07bf2744b88c5adbb2ed783561 = L.circle(
+                [47.56975050895006,19.048678594433817],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_e38103f815c64d9db4413484d68359b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_f56634a362e344639b02d44bb532a9fe = $('<div id="html_f56634a362e344639b02d44bb532a9fe" style="width: 100.0%; height: 100.0%;">Pók Roulette Cafe</div>')[0];
+                popup_e38103f815c64d9db4413484d68359b7.setContent(html_f56634a362e344639b02d44bb532a9fe);
+            
+
+            circle_ecb0db07bf2744b88c5adbb2ed783561.bindPopup(popup_e38103f815c64d9db4413484d68359b7);
+
+            
+        
+    
+
+            var circle_47a5f6d569eb497881d9e0389016fc54 = L.circle(
+                [47.509608960065606,19.06158726239961],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_758eca4e89b8451888108fde2d41f897 = L.popup({maxWidth: '300'});
+
+            
+                var html_473c0ee9d4214c8fadf74d54bcad6d8f = $('<div id="html_473c0ee9d4214c8fadf74d54bcad6d8f" style="width: 100.0%; height: 100.0%;">Pótkulcs</div>')[0];
+                popup_758eca4e89b8451888108fde2d41f897.setContent(html_473c0ee9d4214c8fadf74d54bcad6d8f);
+            
+
+            circle_47a5f6d569eb497881d9e0389016fc54.bindPopup(popup_758eca4e89b8451888108fde2d41f897);
+
+            
+        
+    
+
+            var circle_2de04f7d28d54249b8fe252881b85859 = L.circle(
+                [47.502461984832436,19.064940750499964],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_69cf42f0804048ce94f07e4aad5dde93 = L.popup({maxWidth: '300'});
+
+            
+                var html_125b0959d4874e3eac1fc46c99c5f386 = $('<div id="html_125b0959d4874e3eac1fc46c99c5f386" style="width: 100.0%; height: 100.0%;">Refuge Bistro</div>')[0];
+                popup_69cf42f0804048ce94f07e4aad5dde93.setContent(html_125b0959d4874e3eac1fc46c99c5f386);
+            
+
+            circle_2de04f7d28d54249b8fe252881b85859.bindPopup(popup_69cf42f0804048ce94f07e4aad5dde93);
+
+            
+        
+    
+
+            var circle_f296561c8d224b85bd12d9e2cb6bdc5d = L.circle(
+                [47.502461984832436,19.064940750499964],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_bac1d71a74754c7ea2bf8a84c9fd844c = L.popup({maxWidth: '300'});
+
+            
+                var html_cfe38926bc0147f0a0cab8732d076a1d = $('<div id="html_cfe38926bc0147f0a0cab8732d076a1d" style="width: 100.0%; height: 100.0%;">Refuge Bistro</div>')[0];
+                popup_bac1d71a74754c7ea2bf8a84c9fd844c.setContent(html_cfe38926bc0147f0a0cab8732d076a1d);
+            
+
+            circle_f296561c8d224b85bd12d9e2cb6bdc5d.bindPopup(popup_bac1d71a74754c7ea2bf8a84c9fd844c);
+
+            
+        
+    
+
+            var circle_bb2638c384ec41e7bec6b8db779ab0ac = L.circle(
+                [47.421313404519985,19.071820233601684],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_222b3baac97d427ca0e4b3a5530e1d3c = L.popup({maxWidth: '300'});
+
+            
+                var html_c67cf3e884554fe59001c9b19f1e3f95 = $('<div id="html_c67cf3e884554fe59001c9b19f1e3f95" style="width: 100.0%; height: 100.0%;">Retro Kert &amp; Coffee</div>')[0];
+                popup_222b3baac97d427ca0e4b3a5530e1d3c.setContent(html_c67cf3e884554fe59001c9b19f1e3f95);
+            
+
+            circle_bb2638c384ec41e7bec6b8db779ab0ac.bindPopup(popup_222b3baac97d427ca0e4b3a5530e1d3c);
+
+            
+        
+    
+
+            var circle_b5da6e3130e144198d23a4b18a8a2998 = L.circle(
+                [47.42249195787166,19.072119666029785],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_636ee314a933408f901387c46b1eee75 = L.popup({maxWidth: '300'});
+
+            
+                var html_3fa1f033e507457885e8d23a62715c19 = $('<div id="html_3fa1f033e507457885e8d23a62715c19" style="width: 100.0%; height: 100.0%;">Rizmajer Kézműves Sörház</div>')[0];
+                popup_636ee314a933408f901387c46b1eee75.setContent(html_3fa1f033e507457885e8d23a62715c19);
+            
+
+            circle_b5da6e3130e144198d23a4b18a8a2998.bindPopup(popup_636ee314a933408f901387c46b1eee75);
+
+            
+        
+    
+
+            var circle_d53c76c5c77e46e09519c01710fa145c = L.circle(
+                [47.567053407361946,19.12155347542534],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_260b7f70d0854168ad2655b27678ec8b = L.popup({maxWidth: '300'});
+
+            
+                var html_f38ce9351681428388dee02bc1f0ea02 = $('<div id="html_f38ce9351681428388dee02bc1f0ea02" style="width: 100.0%; height: 100.0%;">Rudolf borozó</div>')[0];
+                popup_260b7f70d0854168ad2655b27678ec8b.setContent(html_f38ce9351681428388dee02bc1f0ea02);
+            
+
+            circle_d53c76c5c77e46e09519c01710fa145c.bindPopup(popup_260b7f70d0854168ad2655b27678ec8b);
+
+            
+        
+    
+
+            var circle_494c50de6a114aadb0592a8b3b2f2fed = L.circle(
+                [47.50065299418977,19.063708114482274],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_4401c9e5651143679755b5caef384ad0 = L.popup({maxWidth: '300'});
+
+            
+                var html_482c54ce4e6b4490a91f527b7c3b976a = $('<div id="html_482c54ce4e6b4490a91f527b7c3b976a" style="width: 100.0%; height: 100.0%;">STIKA Budapest</div>')[0];
+                popup_4401c9e5651143679755b5caef384ad0.setContent(html_482c54ce4e6b4490a91f527b7c3b976a);
+            
+
+            circle_494c50de6a114aadb0592a8b3b2f2fed.bindPopup(popup_4401c9e5651143679755b5caef384ad0);
+
+            
+        
+    
+
+            var circle_978ad649052a436d82a4a08234d0ee60 = L.circle(
+                [47.46580325646474,19.022564293731975],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_a172f04b2e224f7fa9f2245fcbcc0696 = L.popup({maxWidth: '300'});
+
+            
+                var html_83dfdfb707ba4ec09de42af2982e3966 = $('<div id="html_83dfdfb707ba4ec09de42af2982e3966" style="width: 100.0%; height: 100.0%;">Scarabeus Music Cafe</div>')[0];
+                popup_a172f04b2e224f7fa9f2245fcbcc0696.setContent(html_83dfdfb707ba4ec09de42af2982e3966);
+            
+
+            circle_978ad649052a436d82a4a08234d0ee60.bindPopup(popup_a172f04b2e224f7fa9f2245fcbcc0696);
+
+            
+        
+    
+
+            var circle_6f4d69d1038c49adb5de35f5fb335124 = L.circle(
+                [47.50612158157853,19.070342003792334],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_d098ecb11b604f6fbe089818f35d6f42 = L.popup({maxWidth: '300'});
+
+            
+                var html_d1fdbb2a1c6f4228b74ca17ef6feb4f9 = $('<div id="html_d1fdbb2a1c6f4228b74ca17ef6feb4f9" style="width: 100.0%; height: 100.0%;">Snaps Galéria Belga Söröző</div>')[0];
+                popup_d098ecb11b604f6fbe089818f35d6f42.setContent(html_d1fdbb2a1c6f4228b74ca17ef6feb4f9);
+            
+
+            circle_6f4d69d1038c49adb5de35f5fb335124.bindPopup(popup_d098ecb11b604f6fbe089818f35d6f42);
+
+            
+        
+    
+
+            var circle_5743ffe3dd1049718012cf05db1b72f5 = L.circle(
+                [47.50612158157853,19.070342003792334],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_719f5d8c9d0947d0b1ad043c8c2d1589 = L.popup({maxWidth: '300'});
+
+            
+                var html_7d5ee688cd5e4c41bb4fa4d3a9bb7467 = $('<div id="html_7d5ee688cd5e4c41bb4fa4d3a9bb7467" style="width: 100.0%; height: 100.0%;">Snaps Galéria Belga Söröző</div>')[0];
+                popup_719f5d8c9d0947d0b1ad043c8c2d1589.setContent(html_7d5ee688cd5e4c41bb4fa4d3a9bb7467);
+            
+
+            circle_5743ffe3dd1049718012cf05db1b72f5.bindPopup(popup_719f5d8c9d0947d0b1ad043c8c2d1589);
+
+            
+        
+    
+
+            var circle_8dfd408faf6d4cf4bd24c76ff21704e4 = L.circle(
+                [47.498120532618294,19.058111350900706],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_7c576365a869481c963e864ffeaa00c2 = L.popup({maxWidth: '300'});
+
+            
+                var html_b040dd4199614782a37028ae39eb88ca = $('<div id="html_b040dd4199614782a37028ae39eb88ca" style="width: 100.0%; height: 100.0%;">Telep Art Bar and Bistro</div>')[0];
+                popup_7c576365a869481c963e864ffeaa00c2.setContent(html_b040dd4199614782a37028ae39eb88ca);
+            
+
+            circle_8dfd408faf6d4cf4bd24c76ff21704e4.bindPopup(popup_7c576365a869481c963e864ffeaa00c2);
+
+            
+        
+    
+
+            var circle_57e706f0a89145e8867f6de0b66c2ba9 = L.circle(
+                [47.50491104732507,19.060766364975695],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_04d725a6e02f4d1ebbbdf36643869198 = L.popup({maxWidth: '300'});
+
+            
+                var html_4f83080e50d54896b17ceaeb589b5237 = $('<div id="html_4f83080e50d54896b17ceaeb589b5237" style="width: 100.0%; height: 100.0%;">The Caledonia Budapest Scottish Pub &amp; Shop</div>')[0];
+                popup_04d725a6e02f4d1ebbbdf36643869198.setContent(html_4f83080e50d54896b17ceaeb589b5237);
+            
+
+            circle_57e706f0a89145e8867f6de0b66c2ba9.bindPopup(popup_04d725a6e02f4d1ebbbdf36643869198);
+
+            
+        
+    
+
+            var circle_4003cbc6d2764583b9e8abc43d623e99 = L.circle(
+                [47.50397331819305,19.054954165439433],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_a2e70bee4b324cfa98dac56615c6e6ff = L.popup({maxWidth: '300'});
+
+            
+                var html_d5ed4a67ba9c432b8ea4d34a25185c76 = $('<div id="html_d5ed4a67ba9c432b8ea4d34a25185c76" style="width: 100.0%; height: 100.0%;">Toldi Klub</div>')[0];
+                popup_a2e70bee4b324cfa98dac56615c6e6ff.setContent(html_d5ed4a67ba9c432b8ea4d34a25185c76);
+            
+
+            circle_4003cbc6d2764583b9e8abc43d623e99.bindPopup(popup_a2e70bee4b324cfa98dac56615c6e6ff);
+
+            
+        
+    
+
+            var circle_22e1921aa7664ae6abae139d3efff1a8 = L.circle(
+                [47.501083,19.058819],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_905253cebd2b4982a88bdb53f5a864f2 = L.popup({maxWidth: '300'});
+
+            
+                var html_16aee6b51fe64a84a2e7cdd5189a8cb1 = $('<div id="html_16aee6b51fe64a84a2e7cdd5189a8cb1" style="width: 100.0%; height: 100.0%;">Tuk Tuk Bar</div>')[0];
+                popup_905253cebd2b4982a88bdb53f5a864f2.setContent(html_16aee6b51fe64a84a2e7cdd5189a8cb1);
+            
+
+            circle_22e1921aa7664ae6abae139d3efff1a8.bindPopup(popup_905253cebd2b4982a88bdb53f5a864f2);
+
+            
+        
+    
+
+            var circle_d4f11a81ab774141b65e400cba8408d6 = L.circle(
+                [47.48071396208831,19.084400448122352],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_0ff5b9c379584bd4847a5537f5270ed6 = L.popup({maxWidth: '300'});
+
+            
+                var html_cc2af894846644ae92b666ef0091ad11 = $('<div id="html_cc2af894846644ae92b666ef0091ad11" style="width: 100.0%; height: 100.0%;">Vödör bar</div>')[0];
+                popup_0ff5b9c379584bd4847a5537f5270ed6.setContent(html_cc2af894846644ae92b666ef0091ad11);
+            
+
+            circle_d4f11a81ab774141b65e400cba8408d6.bindPopup(popup_0ff5b9c379584bd4847a5537f5270ed6);
+
+            
+        
+    
+
+            var circle_378c42d5b2c245e3af157801f341d436 = L.circle(
+                [47.49828308687405,19.064176423924813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_9857663018714f5782e4f8ef515ba618 = L.popup({maxWidth: '300'});
+
+            
+                var html_1896fb441ffa4e919cc11682e1da0cf3 = $('<div id="html_1896fb441ffa4e919cc11682e1da0cf3" style="width: 100.0%; height: 100.0%;">WarmUp</div>')[0];
+                popup_9857663018714f5782e4f8ef515ba618.setContent(html_1896fb441ffa4e919cc11682e1da0cf3);
+            
+
+            circle_378c42d5b2c245e3af157801f341d436.bindPopup(popup_9857663018714f5782e4f8ef515ba618);
+
+            
+        
+    
+
+            var circle_9c8d6c06138a42f2bbcfbb352910fbb6 = L.circle(
+                [47.505718060341636,19.05916871243925],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_5b269a1d85d94a7f8408efe2feb9074c = L.popup({maxWidth: '300'});
+
+            
+                var html_1d8e8a2033694efa9e1e6bf6f526b91b = $('<div id="html_1d8e8a2033694efa9e1e6bf6f526b91b" style="width: 100.0%; height: 100.0%;">Wunder Sörművek</div>')[0];
+                popup_5b269a1d85d94a7f8408efe2feb9074c.setContent(html_1d8e8a2033694efa9e1e6bf6f526b91b);
+            
+
+            circle_9c8d6c06138a42f2bbcfbb352910fbb6.bindPopup(popup_5b269a1d85d94a7f8408efe2feb9074c);
+
+            
+        
+    
+
+            var circle_20b7b8e2fa1d4bea91d64caa08434eac = L.circle(
+                [47.53151103998343,19.079173818828338],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_84bb361e6435480d8dda1ac7b61f78c1);
+            
+    
+            var popup_7fe3119ee6fe488a810fc44b25d73134 = L.popup({maxWidth: '300'});
+
+            
+                var html_93b33c23461f47708a833ef63d4c1c1b = $('<div id="html_93b33c23461f47708a833ef63d4c1c1b" style="width: 100.0%; height: 100.0%;">Zöld Angyal Söröző és Bowling Club</div>')[0];
+                popup_7fe3119ee6fe488a810fc44b25d73134.setContent(html_93b33c23461f47708a833ef63d4c1c1b);
+            
+
+            circle_20b7b8e2fa1d4bea91d64caa08434eac.bindPopup(popup_7fe3119ee6fe488a810fc44b25d73134);
+
+            
+        
+</script>
